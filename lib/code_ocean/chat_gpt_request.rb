@@ -9,7 +9,7 @@ class ChatGptRequest
       model: 'gpt-3.5-turbo',
       messages: [{ role: 'assistant', content: prompt }]
     }
-    api_key = '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'
+    api_key = 'your api key'
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
     request = Net::HTTP::Post.new(url.path, {'Content-Type' => 'application/json',
