@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='your chat gpt api key')
 
 # Set your OpenAI GPT-3 API key
 def get_completion(prompt):
